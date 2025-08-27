@@ -117,12 +117,15 @@ button:hover {
 .tech-icons img {
   height: 40px;
   width: 40px;
-  filter: brightness(0) invert(1);
+  /* Cinza suave */
+  filter: grayscale(100%) brightness(80%) opacity(0.7);
   transition: filter 0.3s ease;
   cursor: default;
 }
 .tech-icons img:hover {
-  filter: brightness(0) invert(0.7) drop-shadow(0 0 2px #00ff7f);
+  /* Verde vibrante com brilho */
+  filter: brightness(0) invert(39%) sepia(92%) saturate(490%) hue-rotate(90deg) brightness(100%) contrast(90%);
+  drop-shadow(0 0 5px #00ff7f);
 }
 
 .projects-list {
@@ -210,6 +213,7 @@ footer {
     text-align: center;
   }
 }
+
 .icon-green {
   color: #00ff7f;
   margin-right: 8px;
