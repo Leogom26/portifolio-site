@@ -14,7 +14,11 @@ export default function About({ onContactClick }: AboutProps) {
         modernas, performáticas e escaláveis.
       </p>
       <div className="btn-group">
-        <a href="/curriculo.pdf" download className="btn-link">
+        <a
+          href="/Curriculo_Leonardo_Gomes_Dev_Junior.pdf"
+          download
+          className="btn-link"
+        >
           <FaDownload className="icon-green" /> Baixar Currículo
         </a>
         <button onClick={onContactClick}>
