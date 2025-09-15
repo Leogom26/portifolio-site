@@ -1,4 +1,5 @@
 /* index.css */
+@import "tailwindcss";
 * {
   margin: 0;
   padding: 0;
@@ -124,8 +125,9 @@ button:hover {
 }
 .tech-icons img:hover {
   /* Verde vibrante com brilho */
-  filter: brightness(0) invert(39%) sepia(92%) saturate(490%) hue-rotate(90deg) brightness(100%) contrast(90%);
-  drop-shadow(0 0 5px #00ff7f);
+  filter: brightness(0) invert(39%) sepia(92%) saturate(490%) hue-rotate(90deg)
+    brightness(100%) contrast(90%);
+  filter: drop-shadow(0 0 5px #00ff7f);
 }
 
 .projects-list {
@@ -221,6 +223,15 @@ footer {
 }
 .icon-white {
   color: #fff;
-  margin-right: 8px;
+  width: 1em; /* usa a largura proporcional ao font-size */
+  height: 1em;
+  flex-shrink: 0; /* impede de deformar dentro do flex */
+  margin-right: 8px; /* espaço entre ícone e texto */
   vertical-align: middle;
+}
+.btn-inline {
+  display: inline-flex; /* flex só no botão */
+  flex-direction: row; /* horizontal */
+  align-items: center; /* centraliza vertical */
+  gap: 8px; /* espaçamento entre ícone e texto */
 }

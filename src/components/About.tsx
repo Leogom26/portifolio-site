@@ -21,7 +21,7 @@ export default function About({ onContactClick }: AboutProps) {
         >
           <FaDownload className="icon-green" /> Baixar Currículo
         </a>
-        <button onClick={onContactClick}>
+        <button className="btn-inline" onClick={onContactClick}>
           <FaEnvelope className="icon-white" /> Contact Me
         </button>
       </div>
