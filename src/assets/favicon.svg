@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 150">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+    <style>
+      .tag { font: 700 48px "Fira Code", monospace; fill: url(#grad); }
+      .text { font: 700 48px "Fira Code", monospace; fill: #064e3b; }
+    </style>
+  </defs>
+
+  <text class="tag" x="20" y="80">&lt;</text>
+  <text class="text" x="60" y="80">leogomweb</text>
+  <text class="tag" x="460" y="80">/&gt;</text>
+</svg>

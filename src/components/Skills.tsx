@@ -25,10 +25,6 @@ const techs = [
     alt: "Prisma",
   },
   {
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typeorm/typeorm-original.svg",
-    alt: "TypeORM",
-  },
-  {
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     alt: "HTML5",
   },
