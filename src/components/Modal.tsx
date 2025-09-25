@@ -9,9 +9,7 @@ export default function Modal({ onClose }: ModalProps) {
         <h3>Entre em contato</h3>
         <p>
           Você pode me enviar um email para: <br />
-          <a href="mailto:leogomdesenvolvimento@gmail.com">
-            leogomdesenvolvimento@gmail.com
-          </a>
+          <a href="mailto:contato@leogomweb.com.br">contato@leogomweb.com.br</a>
         </p>
         <button className="close-btn" onClick={onClose}>
           Fechar
