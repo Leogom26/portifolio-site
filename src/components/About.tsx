@@ -15,7 +15,7 @@ export default function About({ onContactClick }: AboutProps) {
       </p>
       <div className="btn-group">
         <a
-          href="/Curriculo_Leonardo_Gomes_Atualizado.pdf"
+          href="/Curriculo_Leonardo_Gomes_Dev_Junior_Final_Icons.pdf"
           download
           className="btn-link"
         >
